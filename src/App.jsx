@@ -43,10 +43,10 @@ function App() {
       const isSqlIcon = Math.random() > 0.5;
       icons.push({
         id: i,
-        type: isSqlIcon ? '/tm-icon.svg' : '/bg-pattern.svg',
+        type: isSqlIcon ? '/sqlite-logo.svg' : '/bg-pattern.svg',
         top: Math.random() * 100,
         left: Math.random() * 100,
-        size: isSqlIcon ? '80px' : '40px'
+        size: isSqlIcon ? '120px' : '40px'
       });
     }
     return icons;

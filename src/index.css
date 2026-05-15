@@ -731,8 +731,7 @@ textarea::placeholder {
 
 /* Adjust background icon opacity to be very subtle */
 .main-content img[alt="bg-icon"] {
-  opacity: 0.15 !important;
-  filter: grayscale(1);
+  opacity: 0.4 !important;
 }
 
 .message-content tr:last-child td {
